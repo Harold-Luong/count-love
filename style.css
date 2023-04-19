@@ -7,6 +7,14 @@ body {
   -ms-overflow-style: none;
 }
 
+img {
+  margin-bottom: -7px
+}
+
+.w3-row-padding img {
+  margin-bottom: 12px
+}
+
 ::-webkit-scrollbar {
   width: 0 !important;
   display: none;
@@ -117,8 +125,8 @@ body {
 /* Section - Block */
 /**************************/
 #parallax-world-of-ugg .block {
-  background: transparent;
-  padding: 60px;
+  background: none;
+  padding: 30px;
   width: 50%;
   margin: 0 auto;
   text-align: justify;
@@ -142,11 +150,13 @@ body {
 /* Section - Parallax */
 /**************************/
 #parallax-world-of-ugg .parallax-one {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  /* height: 100vh; */
+  padding-top: 100px;
+  padding-bottom: 100px;
   overflow: hidden;
   position: relative;
   width: 100%;
+  /* background-image: url(https://scontent.fsgn13-4.fna.fbcdn.net/v/t39.30808-6/273168928_1836979226502776_1121466516388759770_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e3f864&_nc_ohc=h4XKn2NIzPsAX-37tvP&_nc_ht=scontent.fsgn13-4.fna&oh=00_AfCl2J-aFY4Oj0hxD0AA33EUrYdduQtzwLZda35HaqNgbA&oe=6444F90C); */
   background-image: url(https://images.unsplash.com/photo-1415018255745-0ec3f7aee47b?dpr=1&auto=format&fit=crop&w=1500&h=938&q=80&cs=tinysrgb&crop=);
   background-attachment: fixed;
   background-size: cover;
@@ -157,8 +167,8 @@ body {
 }
 
 #parallax-world-of-ugg .parallax-two {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -172,8 +182,8 @@ body {
 }
 
 #parallax-world-of-ugg .parallax-three {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -227,8 +237,8 @@ body {
 
 @media screen and (max-width: 479px) {
   #parallax-world-of-ugg .block {
-    padding: 30px 15px;
-    width: 290px;
+    padding: 0.71rem;
+    width: 100%
   }
 
   .parallax-one #time {
@@ -236,9 +246,6 @@ body {
 
   }
 
-  .margin-top-10 {
-    display: none;
-  }
 
   #parallax-world-of-ugg h3 {
     font-family: "Oswald", sans-serif;
